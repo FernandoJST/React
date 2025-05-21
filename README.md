@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Clinica App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación web para la gestión integral de una clínica, con frontend en React y backend en Node.js con Express. Permite administrar usuarios, clientes, productos, ventas y autenticación segura.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Descripción
 
-### `npm start`
+Clinica App es una solución completa para la gestión administrativa de una clínica médica. Ofrece funcionalidades para:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   **Gestión de usuarios y roles:** Controla quién accede y qué permisos tiene cada usuario.
+-   **Registro y consulta de clientes:** Administra la información detallada de los pacientes.
+-   **Manejo de productos y stock:** Controla el inventario de los productos disponibles.
+-   **Registro de ventas con detalles:** Lleva un seguimiento de las transacciones y los productos vendidos.
+-   **Autenticación y autorización mediante JWT:** Garantiza la seguridad en el acceso a la aplicación.
+-   **Interfaz moderna y responsiva con React:** Proporciona una experiencia de usuario intuitiva.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tecnologías
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **Frontend:** React, React Router, Context API, Axios
+-   **Backend:** Node.js, Express, MySQL
+-   **Autenticación:** JSON Web Tokens (JWT)
+-   **Estilos:** CSS personalizado
+-   **Herramientas:** npm, dotenv para variables de entorno
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requisitos Previos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Asegúrate de tener instalados los siguientes programas en tu sistema:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   **Node.js** (v14+ recomendado): Incluye `npm`.
+-   **MySQL:** Un servidor de base de datos MySQL (puedes usar XAMPP, que ya incluye Apache, MySQL y PHP).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instalación
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Clonar el repositorio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone [https://github.com/tu-usuario/clinica.git](https://github.com/tu-usuario/clinica.git)
+cd clinica
